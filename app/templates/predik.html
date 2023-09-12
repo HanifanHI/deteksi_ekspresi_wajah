@@ -1,0 +1,75 @@
+{% extends 'base.html'%}
+{% block content%}
+<div id="contact" class="contact-us section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+          <h4>Masukan Informasi <em>Pembelajaran</em></h4>
+          <div class="line-dec"></div>
+        </div>
+      </div>
+    </div>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Ruangan</label>
+        <select class="form-select" name="ruangan" id="floatingSelectGrid" aria-label="Floating label select example">
+          <option selected>Pilih Ruangan</option>
+          <option value="D4.1">D4.1</option>
+          <option value="D4.2">D4.2</option>
+          <option value="D4.3">D4.3</option>
+          <option value="D4.4">D4.4</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Kelas</label>
+        <select class="form-select" name="kelas" id="floatingSelectGrid" aria-label="Floating label select example">
+          <option selected>Pilih Kelas</option>
+          <option value="5A">5A</option>
+          <option value="5B">5B</option>
+          <option value="5C">5C</option>
+          <option value="5D">5D</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Nama Dosen</label>
+        <select class="form-select" name="id_dosen" aria-label="Default select example">
+          <option selected>Pilih Nama Dosen</option>
+          {% for no, x in data %}
+          <option value={{x.id_dosen}}>{{x.nama_dosen}}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Mata Kuliah</label>
+        <select class="form-select" name="mata_kuliah" id="floatingSelectGrid" aria-label="Floating label select example">
+          <option selected>Pilih Mata Kuliah</option>
+          <option value="Mobile Programing">Mobile Programing</option>
+          <option value="Komputasi dan Aplikasi Cloud">Komputasi dan Aplikasi Cloud</option>
+          <option value="Framework Programing">Framework Programing</option>
+        </select>
+      </div>
+        <br>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+          </div>
+          <div class="custom-file">
+            <input name="image" type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+          </div>
+        </div>
+      <input class="btn btn-primary" type="submit" value="Submit" style="width: 150px;">
+    </form>
+  </div>
+</div>
+
+<script>
+  $('#inputGroupFile01').on('change',function(){
+      //get the file name
+      var fileName = $(this).val();
+      //replace the "Choose a file" label
+      $(this).next('.custom-file-label').html(fileName);
+  })
+</script>
+{%endblock%}

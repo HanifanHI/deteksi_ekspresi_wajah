@@ -1,0 +1,476 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "assalamualaikum",
+        "Assalamualaikum wr.wb"
+      ],
+      "responses": [
+        "Waalaikumsalam, ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "hanifan",
+      "patterns": [
+        "hanifan",
+        "husein",
+        "isnanto",
+        "hanifan husein isnanto",
+        "19090006"
+      ],
+      "responses": [
+        "Hanifan Husein Isnanto Adalah Mahasiswa Kelas 5C, Prodi D4 Teknik Informatika, Politeknik Harapan Bersama"
+      ]
+    },
+    {
+      "tag": "dwi",
+      "patterns": [
+        "dwi",
+        "ayu",
+        "wardani",
+        "dwi ayu wardani",
+        "19090042"
+      ],
+      "responses": [
+        "Dwi Ayu Wardani Adalah Mahasiswa Kelas 5C, Prodi D4 Teknik Informatika, Politeknik Harapan Bersama"
+      ]
+    },
+    {
+      "tag": "velda",
+      "patterns": [
+        "velda",
+        "sal",
+        "sabilillah",
+        "velda sal sabilillah",
+        "19090038"
+      ],
+      "responses": [
+        "Velda Sal Sabilillah Adalah Mahasiswa Kelas 5C, Prodi D4 Teknik Informatika, Politeknik Harapan Bersama"
+      ]
+    },
+    {
+      "tag": "hendra",
+      "patterns": [
+        "hendra",
+        "estu",
+        "prasetyo",
+        "hendra estu prasetyo",
+        "19090092"
+      ],
+      "responses": [
+        "Hendra Estu Prasetyo Adalah Mahasiswa Kelas 5C, Prodi D4 Teknik Informatika, Politeknik Harapan Bersama"
+      ]
+    },
+    {
+      "tag": "halo",
+      "patterns": [
+        "halo",
+        "hello",
+        "helo",
+        "hello!",
+        "hallo"
+      ],
+      "responses": [
+        "Hello! saya ExpBot, apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "hai",
+      "patterns": [
+        "hai",
+        "hi",
+        "hei"
+      ],
+      "responses": [
+        "Hai! saya ExpBot, apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "pagi",
+      "patterns": [
+        "pagi",
+        "selamat pagi"
+      ],
+      "responses": [
+        "Selamat pagi, saya ExpBot, apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "siang",
+      "patterns": [
+        "siang",
+        "selamat siang"
+      ],
+      "responses": [
+        "Selamat siang, saya ExpBot, apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "sore",
+      "patterns": [
+        "sore",
+        "selamat sore"
+      ],
+      "responses": [
+        "Selamat sore, saya ExpBot, apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "malam",
+      "patterns": [
+        "malam",
+        "selamat malam"
+      ],
+      "responses": [
+        "Selamat malam, saya ExpBot, apakah ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "terima kasih",
+      "patterns": [
+        "terima kasih",
+        "thanks",
+        "thanks you",
+        "thank you"
+      ],
+      "responses": [
+        "Iya sama-sama, semoga bisa membantu"
+      ]
+    },
+    {
+      "tag": "senang",
+      "patterns": [
+        "senang"
+      ],
+      "responses": [
+        "ekspresi wajah yang tersenyum"
+      ]
+    },
+    {
+      "tag": "biasa",
+      "patterns": [
+        "biasa"
+      ],
+      "responses": [
+        "ekspresi wajah yang datar"
+      ]
+    },
+    {
+      "tag": "jumlah fitur",
+      "patterns": [
+        "ada berapa fitur?",
+        "berapa fitur?"
+      ],
+      "responses": [
+        "Aplikasi ini terdapat 3 fitur utama"
+      ]
+    },
+    {
+      "tag": "aplikasi",
+      "patterns": [
+        "aplikasi apa?",
+        "ini apikasi apa?",
+        "aplikasi"
+      ],
+      "responses": [
+        "Deteksi Ekspresi Wajah adalah sebuah sistem yang digunakan untuk mendeteksi ekspresi seseorang khususnya dalam hal ini adalah mahasiswa. Dimana sistem ini akan mendeteksi ekspresi wajah mahasiswa dalam mengikuti perkuliahan, apakah senang atau biasa. Jika senang artinya mahasiswa tersebut antusias dalam mengikuti perkuliahan tersebut, tetapi jika biasa maka mahasiswa tersebut dianggap bosan dalam mengikuti perkuliahan tersebut. Sehingga dosen bisa mengevaluasi agar diperkuliahan selanjutnya tidak membosankan"
+      ]
+    },
+    {
+      "tag": "manfaat",
+      "patterns": [
+        "manfaat",
+        "manfaat aplikasi",
+        "apa manfaatnya?"
+      ],
+      "responses": [
+        "Dosen Menjadi tau bagaimana suasana pada saat perkuliahan berlangsung apakah membosankan atau tidak sehingga dosen dapat mengevaluasi pembelajaran agar berlangsung tidak membosankan"
+      ]
+    },
+    {
+      "tag": "ekspresi",
+      "patterns": [
+        "berapa ekspresi?",
+        "ada berapa ekspresi?"
+      ],
+      "responses": [
+        "Aplikasi ini dapat mendeteksi ekspresi senang dan biasa"
+      ]
+    },
+    {
+      "tag": "fungsi",
+      "patterns": [
+        "fungsi aplikasi?",
+        "fungsinya untuk apa?"
+      ],
+      "responses": [
+        "Aplikasi ini berfungsi untuk mendeteksi wajah mahasiswa"
+      ]
+    },
+    {
+      "tag": "kelebihan",
+      "patterns": [
+        "apa kelebihannya?",
+        "kelebihan aplikasi"
+      ],
+      "responses": [
+        "Aplikasi ini dapat mengetahui berapa banyak ekspresi yang senang dan berapa banyak ekspresi yang biasa"
+      ]
+    },
+    {
+      "tag": "ExpBot",
+      "patterns": [
+        "ExpBot"
+      ],
+      "responses": [
+        "Hai, Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "ekspresi senang",
+      "patterns": [
+        "Ekspresi senang seperti apa?"
+      ],
+      "responses": [
+        "Eskpresi senang menujukan bahwa mahasiswa antusias dengan perkuliahan tersebut"
+      ]
+    },
+    {
+      "tag": "ekspresi biasa",
+      "patterns": [
+        "Ekspresi biasa seperti apa?"
+      ],
+      "responses": [
+        "Eskpresi biasa menujukan bahwa mahasiswa bosan dengan perkuliahan tersebut"
+      ]
+    },
+    {
+      "tag": "report",
+      "patterns": [
+        "fitur report",
+        "fungsi fitur report"
+      ],
+      "responses": [
+        "Fitur report berfungsi untuk menampilan laporan, didalam laporan tersebut berisi hasil persentase ekspresi mahasiswa yang senang dan biasa"
+      ]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "fitur chatbot",
+        "fungsi fitur chatbot"
+      ],
+      "responses": [
+        "Fitur chatbot berfungsi untuk memberikan bantuan apabila pengguna kesulitan dalam menggunakan aplikasi"
+      ]
+    },
+    {
+      "tag": "diluar pertanyaan",
+      "patterns": [
+        "ini",
+        "itu",
+        "kamu",
+        "aku",
+        "uang",
+        "apa",
+        "iya",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        ",",
+        ".",
+        "?",
+        "!",
+        ";",
+        ":",
+        "{}",
+        "/",
+        "|",
+        "*",
+        "<",
+        ">",
+        "&",
+        "()",
+        "^",
+        "#",
+        "@",
+        "%",
+        "hmm",
+        "$"
+      ],
+      "responses": [
+        "Maaf pertanyaan anda kurang jelas"
+      ]
+    },
+    {
+      "tag": "lebih banyak senang",
+      "patterns": [
+        "lebih banyak senang",
+        "bagaimana jika lebih banyak yang senang?"
+      ],
+      "responses": [
+        "Jika hasilnya lebih banyak yang senang artinya mahasiswa lebih banyak yang antusias dalam mengikuti perkuliahan tersebut"
+      ]
+    },
+    {
+      "tag": "lebih banyak biasa",
+      "patterns": [
+        "lebih banyak biasa",
+        "bagaimana jika lebih banyak yang biasa?"
+      ],
+      "responses": [
+        "Jika hasilnya lebih banyak yang biasa artinya mahasiswa lebih banyak yang bosan dalam mengikuti perkuliahan tersebut"
+      ]
+    },
+    {
+      "tag": "sampai jumpa",
+      "patterns": [
+        "see you",
+        "sampai jumpa"
+      ],
+      "responses": [
+        "sampai jumpa lain waktu, semoga bisa membantu"
+      ]
+    },
+    {
+      "tag": "kelompok",
+      "patterns": [
+        "nama anggota",
+        "kelompok 6"
+      ],
+      "responses": [
+        "Hanifan Husein Isnanto (19090006), Hendra Estu Prasetyo (19090092), Velda Sal Sabillilah (19090038), Dwi Ayu Wardani (19090042)"
+      ]
+    },
+    {
+      "tag": "jelas",
+      "patterns": [
+        "jika gambar tidak jelas bisa mendeteksi?",
+        "gambar kurang jelas bisa dideteksi?"
+      ],
+      "responses": [
+        "Aplikasi ini hanya dapat mendeteksi gambar yang jelas"
+      ]
+    },
+    {
+      "tag": "akses",
+      "patterns": [
+        "siapa yang dapat mengakses aplikasi ini?",
+        "siapa yang dapat menggunakan aplikasi ini?"
+      ],
+      "responses": [
+        "Aplikasi ini hanya dapat diakses oleh admin dan dosen"
+      ]
+    },
+    {
+      "tag": "wajah",
+      "patterns": [
+        "selain gambar wajah bisa mendeteksi?",
+        "jika gambar bukan wajah bisa mendeteksi?"
+      ],
+      "responses": [
+        "Aplikasi ini hanya dapat mendeteksi gambar wajah"
+      ]
+    },
+    {
+      "tag": "ekstensi",
+      "patterns": [
+        "gambar yang diupload berekstensi apa?"
+      ],
+      "responses": [
+        "Gambar yang diupload harus berekstensi jpg, jpeg, png"
+      ]
+    },
+    {
+      "tag": "diluar ekstensi",
+      "patterns": [
+        "selain gambar jpg bisa diupload?",
+        "selain gambar jpeg bisa diupload?",
+        "selain gambar png bisa diupload?"
+      ],
+      "responses": [
+        "Gambar yang diupload harus berekstensi jpg, jpeg, png, selain itu tidak bisa"
+      ]
+    },
+    {
+      "tag": "ambil gambar",
+      "patterns": [
+        "ambil gambar dari kamera",
+        "apakah bisa mengambil gambar dari kamera?"
+      ],
+      "responses": [
+        "Aplikasi ini dapat mengambil gambar dari kamera melalui website"
+      ]
+    },
+    {
+      "tag": "pengambil gambar",
+      "patterns": [
+        "siapa yang dapat mengambil gambar dari kamera?"
+      ],
+      "responses": [
+        "Yang dapat mengambil gambar dari kamera adalah dosen pada saat perkuliahan"
+      ]
+    },
+    {
+      "tag": "alasan",
+      "patterns": [
+        "kenapa harus menggunakan aplikasi ini?",
+        "alasan menggunakan aplikasi ini"
+      ],
+      "responses": [
+        "Karena aplikasi ini dapat mengetahui seberapa antusias mahasiswa dalam mengikuti perkuliahan, sehingga dosen dapat mengevaluasi untuk perkuliahan berikutnya"
+      ]
+    },
+    {
+      "tag": "cara penggunaan",
+      "patterns": [
+        "bagaimana cara menggunakan aplikasi ini?",
+        "cara menggunakan aplikasi ini"
+      ],
+      "responses": [
+        "Pertama ambil gambar melalui kamera atau mengambil gambar dari folder, kemudian submit, setelah itu akan diketahui berapa jumlah ekspresi senang dan biasa"
+      ]
+    },
+    {
+      "tag": "kekurangan",
+      "patterns": [
+        "apa kekurangan aplikasi ini?",
+        "kekurangan aplikasi",
+        "kekurangan"
+      ],
+      "responses": [
+        "Aplikasi ini masih sedikit fitur, maka dari itu kami akan terus mengembangkan aplikasi ini sampai dapat digunakan dengan layak"
+      ]
+    },
+    {
+      "tag": "kegunaan",
+      "patterns": [
+        "apa kegunaan aplikasi ini?",
+        "kegunaan aplikasi",
+        "kegunaan"
+      ],
+      "responses": [
+        "Aplikasi ini dapat membantu dosen dalam mengevaluasi jalannya perkuliahan agar tidak membosankan"
+      ]
+    },
+    {
+      "tag": "fitur utama",
+      "patterns": [
+        "fitur apa saja?",
+        "fitur utama",
+        "fitur"
+      ],
+      "responses": [
+        "Aplikasi ini terdapat 3 fitur utama yaitu, fitur ambil gambar, fitur chatbot dan fitur report"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{% extends 'base.html'%}
+{% block content%}
+<div id="contact" class="contact-us section">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+              <h4>Selamat <em>Datang</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+              <a href="/pindai"><div class="menu" 
+              style="background-color: white;
+                  display: block;
+                  margin: 5px;
+                  width: 400px;
+                  height: 400px;
+                  justify-content: center;
+                  text-align: center;
+                  border: none;
+                  border-radius: 10px;
+                  box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.15);
+                  transition: ease-in-out 0.5s;">
+                  <img src="{{url_for('static',filename='images/informasi-pembelajaran.png')}}" style="width: 300px;
+                  height: 300px;
+                  margin-top: 20px;" alt="">
+                  <h4>Pembelajaran</h4>
+              </div></a>
+            </div>
+            <div class="col">
+                <a href="/listdosen"><div class="menu" 
+                style="background-color: white;
+                    display: block;
+                    margin: 5px;
+                    width: 400px;
+                    height: 400px;
+                    justify-content: center;
+                    text-align: center;
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.15);
+                    transition: ease-in-out 0.5s;">
+                    <img src="{{url_for('static',filename='images/histori.png')}}" style="width: 300px;
+                    height: 300px;
+                    margin-top: 20px;" alt="">
+                    <h4>Histori</h4>
+                </div></a>
+            </div>
+            <div class="col">
+                <a href="/chat"><div class="menu" 
+                style="background-color: white;
+                    display: block;
+                    margin: 5px;
+                    width: 400px;
+                    height: 400px;
+                    justify-content: center;
+                    text-align: center;
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.15);
+                    transition: ease-in-out 0.5s;">
+                    <img src="{{url_for('static',filename='images/about.png')}}" style="width: 300px;
+                    height: 300px;
+                    margin-top: 20px;" alt="">
+                    <h4>Bantuan</h4>
+                </div></a>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}
